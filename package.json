@@ -1,0 +1,23 @@
+{
+  "name": "rootstrap_backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "rootstrap-clone": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rootstrap Inc.",
+  "license": "MIT",
+  "dependencies": {
+    "caporal": "^0.10.0",
+    "colors": "^1.2.1",
+    "interpolate": "^0.1.0",
+    "prompt": "^1.0.0",
+    "request": "^2.87.0",
+    "shelljs": "^0.8.1",
+    "simple-git": "^1.92.0"
+  }
+}
